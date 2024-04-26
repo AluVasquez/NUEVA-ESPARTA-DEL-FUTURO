@@ -96,7 +96,6 @@
                             <hr class="tm-hr tm-mr">
                     </div>
                 </div>
-
                 <div class="tm-media">
                     <img src="img/gallery/tn/jackeline.jpg" alt="Intro image">
                     <div class="tm-media-body">
@@ -146,7 +145,9 @@
             </div>
 
             <!-- Intro derecha -->
-            <div class="tm-section-col tm-parallax" data-parallax="scroll" data-image-src="img/vertex-bg-01.jpg"></div>
+            <img src="img/vertex-bg-01.jpg" class="img-carousel" alt="">
+            <!-- <div class="img-carousel" data-parallax="scroll" data-image-src="img/vertex-bg-01.jpg"> -->
+        </div>
         </div> <!-- #intro -->
 
         <div id="services" class="tm-section">
@@ -479,7 +480,10 @@
     <script src="js/plugins.js"></script>
     <script>
         $(window).on("load", function () {
-            $('body').addClass('loaded');
+            /* $('body').addClass('loaded'); */
+            setTimeout(() => {
+                $('body').addClass('loaded')
+            }, 1500)
         });
 
         $(function () {
