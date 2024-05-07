@@ -340,6 +340,16 @@ footer {
     box-sizing: border-box;
 }
 
+.tm-contentx {
+    padding: 0px 60px 70px 100px;
+    box-sizing: border-box;
+}
+
+.tm-contentprem {
+    padding: 0px 60px 70px 100px;
+    box-sizing: border-box;
+}
+
 .tm-content-small {
     padding: 190px 120px 70px;
 }
