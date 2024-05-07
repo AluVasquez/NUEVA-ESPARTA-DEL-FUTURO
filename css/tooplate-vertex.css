@@ -341,12 +341,17 @@ footer {
 }
 
 .tm-contentx {
-    padding: 0px -10px 70px 100px;
+    padding: 0px -50px 70px 100px;
     box-sizing: border-box;
 }
 
 .tm-contentprem {
     padding: 0px 60px 70px 100px;
+    box-sizing: border-box;
+}
+
+.tm-contentabout {
+    padding: 180px 60px 70px 100px;
     box-sizing: border-box;
 }
 
